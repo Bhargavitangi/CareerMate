@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>CareerMate - College Placement & Career Companion</title>
+    <meta name="description" content="Modern Android & Jetpack Compose career app for college students featuring Resume Builder with ATS preview & PDF export, Aptitude Quizzes with score tracking, Interview Questions, and Portfolio creator." />
+    <meta property="og:title" content="CareerMate - College Placement & Career Companion" />
+    <meta property="og:description" content="Modern Android & Jetpack Compose career app for college students featuring Resume Builder with ATS preview & PDF export, Aptitude Quizzes with score tracking, Interview Questions, and Portfolio creator." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      @media print {
+        body * {
+          visibility: hidden;
+        }
+        #printable-resume-container,
+        #printable-resume-container * {
+          visibility: visible;
+        }
+        #printable-resume-container {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100% !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          background: white !important;
+          color: black !important;
+          box-shadow: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-slate-100 dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans antialiased selection:bg-indigo-500/20 selection:text-indigo-600">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

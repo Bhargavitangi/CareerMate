@@ -1,0 +1,6 @@
+{
+  "name": "CareerMate - College Placement & Career Companion",
+  "description": "Modern Android & Jetpack Compose career app for college students featuring Resume Builder with ATS preview & PDF export, Aptitude Quizzes with score tracking, Interview Questions, Student Portfolio, and Room local persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
